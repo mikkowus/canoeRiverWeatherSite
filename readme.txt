@@ -8,6 +8,9 @@ A few example generated urls
 https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000&parameterCd=00065&siteStatus=all
 https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01509000&parameterCd=00065&siteStatus=all
 
+some example graphs and such
+https://txpub.usgs.gov/dss/gwis/0.0/doc/#samples
+
 
 
 
@@ -27,7 +30,7 @@ https://waterservices.usgs.gov/rest/IV-Service.html
 
 https://help.waterdata.usgs.gov/
 
-https://txpub.usgs.gov/dss/gwis/0.0/doc/#samples
+
 
 https://webapps.usgs.gov/
 
@@ -41,14 +44,6 @@ https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000
 https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000
 
 https://waterdata.usgs.gov/nwis/uv?cb_00065=on&format=rdb&site_no=01509000&period=&begin_date=2022-09-14&end_date=2022-09-14
-
-A tool to help generate URLs for retreiving data
-https://waterservices.usgs.gov/rest/IV-Test-Tool.html
-
-
-A few example generated urls
-https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000&parameterCd=00065&siteStatus=all
-https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01509000&parameterCd=00065&siteStatus=all
 
 mobile app tutorial
 https://help.waterdata.usgs.gov/tutorials/mobile
