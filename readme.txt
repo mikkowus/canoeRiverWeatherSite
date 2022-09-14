@@ -11,3 +11,5 @@ https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=01509000
 https://www.findlatitudeandlongitude.com/?lat=41.69547509615208&lon=-70.30563354492188&zoom=10&map_type=G_NORMAL_MAP
 
 https://help.waterdata.usgs.gov/tutorials
+
+https://waterservices.usgs.gov/rest/IV-Service.html
