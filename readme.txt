@@ -30,3 +30,9 @@ https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000
 https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000
 
 https://waterdata.usgs.gov/nwis/uv?cb_00065=on&format=rdb&site_no=01509000&period=&begin_date=2022-09-14&end_date=2022-09-14
+
+A tool to help generate URLs for retreiving data
+https://waterservices.usgs.gov/rest/IV-Test-Tool.html
+
+An example generated url
+https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000&parameterCd=00065&siteStatus=all
