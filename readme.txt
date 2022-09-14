@@ -1,5 +1,16 @@
 These are some usefull links that can be helpful
 
+A tool to help generate URLs for retreiving data
+https://waterservices.usgs.gov/rest/IV-Test-Tool.html
+
+
+A few example generated urls
+https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000&parameterCd=00065&siteStatus=all
+https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01509000&parameterCd=00065&siteStatus=all
+
+
+
+
 Note: the latitude and log are wrong on the usgs site. The long sould start with a -
 
 https://waterservices.usgs.gov/nwis/iv/?format=rdb&indent=on&stateCD=ny&parameterCd=00060,00065&siteType=ST&siteStatus=active
