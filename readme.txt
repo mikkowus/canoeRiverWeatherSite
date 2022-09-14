@@ -34,5 +34,7 @@ https://waterdata.usgs.gov/nwis/uv?cb_00065=on&format=rdb&site_no=01509000&perio
 A tool to help generate URLs for retreiving data
 https://waterservices.usgs.gov/rest/IV-Test-Tool.html
 
-An example generated url
+
+A few example generated urls
 https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000&parameterCd=00065&siteStatus=all
+https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01509000&parameterCd=00065&siteStatus=all
