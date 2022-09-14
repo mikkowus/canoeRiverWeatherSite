@@ -27,3 +27,6 @@ https://txpub.usgs.gov/DSS/GWIS/0.0/services/site?site=01509000&map=true&pcodes=
 https://waterdata.usgs.gov/ny/nwis/uv/?site_no=04271815&PARAmeter_cd=00065,00060,63160
 
 https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000
+https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000
+
+https://waterdata.usgs.gov/nwis/uv?cb_00065=on&format=rdb&site_no=01509000&period=&begin_date=2022-09-14&end_date=2022-09-14
