@@ -20,6 +20,8 @@ https://txpub.usgs.gov/dss/gwis/0.0/doc/#samples
 
 https://webapps.usgs.gov/
 
+https://dashboard.waterdata.usgs.gov/app/nwd/?aoi=default
+
 https://txpub.usgs.gov/DSS/GWIS/0.0/services/site?site=01509000&map=true&pcodes=00065,00060&period=p7d&open=map&tips=true
 
 https://waterdata.usgs.gov/ny/nwis/uv/?site_no=04271815&PARAmeter_cd=00065,00060,63160
