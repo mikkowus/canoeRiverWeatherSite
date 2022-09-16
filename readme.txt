@@ -12,6 +12,9 @@ some example graphs and such
 https://txpub.usgs.gov/dss/gwis/0.0/doc/#samples
 
 
+https://usgs-r.github.io/dataRetrieval/
+
+
 
 
 Note: the latitude and log are wrong on the usgs site. The long sould start with a -
