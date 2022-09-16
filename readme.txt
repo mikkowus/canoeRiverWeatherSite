@@ -7,6 +7,8 @@ https://waterservices.usgs.gov/rest/IV-Test-Tool.html
 A few example generated urls
 https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000&parameterCd=00065&siteStatus=all
 https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01509000&parameterCd=00065&siteStatus=all
+https://waterservices.usgs.gov/nwis/iv/?sites=01509000&parameterCd=00065&startDT=2022-09-08T22:55:08.953-04:00&endDT=2022-09-15T22:55:08.953-04:00&siteStatus=all&format=rdb
+
 
 some example graphs and such
 https://txpub.usgs.gov/dss/gwis/0.0/doc/#samples
