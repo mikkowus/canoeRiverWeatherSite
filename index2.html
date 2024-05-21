@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- this code actually works!!!! I can get the gague height and date and time !!! this is astounding!!!! -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch and Display JSON</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON Data Display</h1>
+    <div id="json-content"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const jsonUrl = 'https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&siteStatus=all&parameterCd=00065';  // Path to your JSON file
+
+            function fetchAndDisplayJSON() {
+                fetch(jsonUrl)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        displayGageHeight(data);
+                    })
+                    .catch(error => {
+                        console.error('Error fetching JSON:', error);
+                        document.getElementById('json-content').textContent = `Error fetching data: ${error.message}`;
+                    });
+            }
+
+            function displayGageHeight(data) {
+                const contentDiv = document.getElementById('json-content');
+
+                // Navigate through the JSON to get the value
+                try {
+                    // Check the path to the timeSeries array
+                    if (data && data.value && data.value.timeSeries && data.value.timeSeries.length > 0) {
+                        const firstTimeSeries = data.value.timeSeries[0];
+                        const valuesArray = firstTimeSeries.values;
+
+                        if (valuesArray && valuesArray.length > 0) {
+                            const firstValues = valuesArray[0].value;
+
+                            if (firstValues && firstValues.length > 0) {
+                                const firstEntry = firstValues[0];
+                                const gageHeightValue = firstEntry.value;
+                                const gageHeightDateTime = firstEntry.dateTime;
+
+                                if (gageHeightValue && gageHeightDateTime) {
+                                    contentDiv.innerHTML = `
+                                        <ul>
+                                            <li><strong>Gage Height:</strong> ${gageHeightValue} ft</li>
+                                            <li><strong>DateTime:</strong> ${gageHeightDateTime}</li>
+                                        </ul>
+                                    `;
+                                    return;
+                                }
+                            }
+                        }
+                    }
+
+                    contentDiv.innerHTML = '<p>No data available</p>';
+                } catch (e) {
+                    console.error('Error parsing JSON data:', e);
+                    contentDiv.innerHTML = '<p>Error parsing data</p>';
+                }
+            }
+
+            fetchAndDisplayJSON();
+        });
+    </script>
+</body>
+</html>
