@@ -10,6 +10,9 @@ https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01509000&parameterCd=0
 https://waterservices.usgs.gov/nwis/iv/?sites=01509000&parameterCd=00065&siteStatus=all&format=rdb
 https://waterservices.usgs.gov/nwis/iv/?sites=01509000&parameterCd=00065&startDT=2022-09-08T22:55:08.953-04:00&endDT=2022-09-15T22:55:08.953-04:00&siteStatus=all&format=rdb
 
+This returns the latest gague height only but its embedded in a massive mess of jason
+https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&siteStatus=all&parameterCd=00065
+
 
 some example graphs and such
 https://txpub.usgs.gov/dss/gwis/0.0/doc/#samples
