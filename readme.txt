@@ -4,12 +4,24 @@ A tool to help generate URLs for retreiving data
 https://waterservices.usgs.gov/test-tools/?service=iv
 
 A few example generated urls
+
+In these urls, I am trying to get a date and time range for stream data.
 https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&indent=on&startDT=2024-05-23T13:00&endDT=2024-05-23T18:00&siteStatus=all
+https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01500500&indent=on&startDT=2024-05-23T13:00&endDT=2024-05-23T18:00&parameterCd=00060
+https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01500500&indent=on&startDT=2024-05-23T13:00&endDT=2024-05-23T18:00&parameterCd=00065
+https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&indent=on&startDT=2024-05-23T13:00&endDT=2024-05-23T18:00&parameterCd=00060
+https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&indent=on&startDT=2024-05-23T13:00&endDT=2024-05-23T18:00&parameterCd=00065
+
+
+In theses urls, I don't do a date and time
 https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000&indent=on&parameterCd=00065&siteStatus=all
 https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01509000&indent=on&parameterCd=00065
 https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01509000&parameterCd=00060&siteStatus=all
 https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01509000&parameterCd=00065&siteStatus=all
 https://waterservices.usgs.gov/nwis/iv/?sites=01509000&parameterCd=00065&siteStatus=all&format=rdb
+
+
+
 https://waterservices.usgs.gov/nwis/iv/?sites=01509000&parameterCd=00065&startDT=2022-09-08T22:55:08.953-04:00&endDT=2022-09-15T22:55:08.953-04:00&siteStatus=all&format=rdb
 
 This returns the latest gague height only but its embedded in a massive mess of jason
