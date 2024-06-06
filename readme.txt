@@ -6,11 +6,11 @@ https://waterservices.usgs.gov/test-tools/?service=iv
 A few example generated urls
 
 In these urls, I am trying to get a date and time range for stream data.
-https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&indent=on&startDT=2024-05-23T13:00&endDT=2024-05-23T18:00&siteStatus=all
-https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01500500&indent=on&startDT=2024-05-23T13:00&endDT=2024-05-23T18:00&parameterCd=00060
-https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01500500&indent=on&startDT=2024-05-23T13:00&endDT=2024-05-23T18:00&parameterCd=00065
-https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&indent=on&startDT=2024-05-23T13:00&endDT=2024-05-23T18:00&parameterCd=00060
-https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&indent=on&startDT=2024-05-23T13:00&endDT=2024-05-23T18:00&parameterCd=00065
+https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&indent=on&startDT=2024-05-26T13:00&endDT=2024-05-26T18:00&siteStatus=all
+https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01500500&indent=on&startDT=2024-05-26T13:00&endDT=2024-05-26T18:00&parameterCd=00060
+https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=01500500&indent=on&startDT=2024-05-26T13:00&endDT=2024-05-26T18:00&parameterCd=00065
+https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&indent=on&startDT=2024-05-26T13:00&endDT=2024-05-26T18:00&parameterCd=00060
+https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01500500&indent=on&startDT=2024-05-26T13:00&endDT=2024-05-26T18:00&parameterCd=00065
 
 
 In theses urls, I don't do a date and time
